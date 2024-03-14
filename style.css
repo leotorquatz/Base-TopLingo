@@ -1,0 +1,34 @@
+body {
+    transition: background-color 0.5s ease;
+}
+
+#background-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.linha {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 103px; 
+    background-color: #5B0B9B; 
+    z-index: 999; 
+}
+
+
+h1 {
+    font-family: "Inter", sans-serif;
+    color: #5B0B9B;
+    position: absolute;
+    top: 1%;
+    left: 43%;
+    font-size: 80px; 
+    height: auto;
+}  
+
+.baixo {
+    top: 100px;
+}
