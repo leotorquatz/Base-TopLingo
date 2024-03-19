@@ -5,4 +5,13 @@ function toggleBackground() {
     } else {
         body.style.backgroundColor = 'white';
     }
+    baixo.style.color = currentBackgroundColor === 'white' ? 'black' : 'white';
 }
+
+
+const inputText = document.getElementById('inputText');
+const outputText = document.getElementById('outputText');
+
+inputText.addEventListener('input', function() {
+    outputText.textContent = inputText.value;
+});
